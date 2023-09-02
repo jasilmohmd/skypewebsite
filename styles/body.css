@@ -1,0 +1,147 @@
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 70px;
+}
+.sub-container1-1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 80px;
+  margin-right: 20px;
+  max-width: 400px;
+}
+.sub-container1-1 h1{
+  font-size: 45px;
+  max-width: 500px;
+}
+.sub-container1-1 h1 span{
+  background: -webkit-linear-gradient(50deg,#0078d4, #c218ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub-container1-1 p{
+  font-size: 17px;
+}
+.sub-container1-1 p span{
+  color: rgb(0, 120, 202);
+  cursor: pointer;
+}
+.sub-container1-1 p span:hover{
+  color: black;
+}
+.sub-container1-2 img{
+  width: 600px;
+  margin-right: 50px;
+  margin-top: 80px;
+}
+.download-button{
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  padding: 15px 30px;
+  background-color:rgb(0, 120, 202) ;
+  cursor: pointer;
+
+}
+.download-button:hover{
+  background-color: rgb(0, 92, 153) ;
+}
+.open{
+  display: inline;
+  font-size: 14px;
+  color: rgb(0, 120, 202);
+  cursor: pointer;
+}
+.open:hover{
+  color: black;
+}
+.discover{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 70px;
+
+}
+.sub-container2{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px;
+}
+.sub-container2 img{
+  margin-bottom: -1px;
+  z-index: 100;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  border-style: solid ;
+  border-color:lightgray ;
+  border-width: 0.01px;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius: 20px;
+  padding: 35px;
+}
+.learn-more{
+  color: rgb(0, 120, 202);
+}
+.learn-more:hover{
+  color: black;
+  text-decoration: underline;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.left-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+
+}
+.left-bottom p{
+  margin: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.right-bottom{
+  text-align: end;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 13px;
+}
+.right-bottom div{
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.right-bottom div img{
+  height: 25px;
+}
+.right-bottom p{
+  font-size: 11px;
+}
+.right-bottom p span{
+  color: rgb(0, 120, 202);;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.right-bottom p span:hover{
+  color: #000;
+}

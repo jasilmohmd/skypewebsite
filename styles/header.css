@@ -1,0 +1,93 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.left-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.left-section img{
+  height: 23px;
+  margin: 10px 20px;
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu ul li{
+  font-size: 13px;
+  margin: 8px;
+  font-weight: 400;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  position: relative;
+}
+.menu ul li a:focus{
+  background: #f2f2f2;
+}
+.line{
+  font-size: 23px;
+  margin: 10px 10px;
+  font-weight: 500;
+}
+.skype{
+  font-size: 18px;
+  margin: 10px 10px;
+  font-weight: 500;
+}
+.skype:hover{
+  border-bottom: 2px solid gray;
+}
+.left-section ul li:hover{
+  border-bottom: 2px solid gray;
+}
+.right-section p{
+  font-size: 13px;
+  margin: 15px;
+}
+.right-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 80px ;
+
+}
+.right-section p:hover{
+  border-bottom: 2px solid gray;
+}
+.sub-menu1 ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: start;
+  padding-left: 0;
+}
+.sub-menu1 ul li{
+  margin-top: 20px;
+}
+.sub-menu1 ul li:hover{
+  border: none;
+  text-decoration: underline;
+}
+.sub-menu1{
+  display: none;
+  position: absolute;
+  width: 250px;
+  border-bottom: 2px solid gray;
+
+}
+.menu ul li a:focus + .sub-menu1{
+  display: block;
+  background: #f2f2f2;
+}
